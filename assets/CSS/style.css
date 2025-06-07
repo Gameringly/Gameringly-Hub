@@ -15,6 +15,10 @@ html * {
     font-family: "Lato", sans-serif;
 }
 
+hr {
+    opacity: 1;
+}
+
 
 /* Navbar */
 
