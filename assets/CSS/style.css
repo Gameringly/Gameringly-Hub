@@ -1,6 +1,17 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
+/* CSS variables */
+:root {
+    --primary-font: "Lato", sans-serif;
+    --dark-color: #13293D;
+    --neutral-color: #006494; 
+    --highlight-color: #1B98E0;
+    --bold-color: #1938D4;
+    --white-colour: #E8F1F2;
+}
+
+
 /* Navbar */
 
 #navbar {
