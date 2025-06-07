@@ -3,12 +3,16 @@
 
 /* CSS variables */
 :root {
-    --primary-font: "Lato", sans-serif;
     --dark-color: #13293D;
     --neutral-color: #006494; 
     --highlight-color: #1B98E0;
     --bold-color: #1938D4;
     --white-colour: #E8F1F2;
+}
+
+/* Global styles */
+html * {
+    font-family: "Lato", sans-serif;
 }
 
 
@@ -18,4 +22,15 @@
     padding-top: 4rem;
     background-image: url(../images/Screenshot\ \(410\).png);
     background-position: 0% 40%;
+    padding-right: 2rem;
+}
+
+#navbar .nav-tabs .nav-link.active {
+    background-color: var(--bold-color);
+    color: var(--white-colour);
+}
+
+#navbar .nav-tabs .nav-link {
+    background-color: var(--dark-color);
+    color: var(--white-colour);
 }
