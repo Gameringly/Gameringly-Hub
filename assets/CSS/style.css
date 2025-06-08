@@ -43,7 +43,8 @@ hr {
 
 footer {
     text-wrap-mode: nowrap;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    text-align: center;
 }
 
 footer h3 {
@@ -56,4 +57,18 @@ footer img {
 
 footer i {
     padding-right: 0.5rem;
+}
+
+/* Media Queries */
+
+/* Medium Devices (tablets, 768px and up) */
+@media screen and (min-width: 768px){
+    footer {
+        text-align: start;
+    }
+    
+    /* Make all the images appear as the same size in the small screen layout as the larger screens */
+    footer img {
+        width: 100%;
+    }
 }
