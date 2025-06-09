@@ -64,6 +64,12 @@ hr {
     color: black;
 }
 
+/* Main */
+
+#social-links img {
+    border-radius: 50%;
+}
+
 /* Carousel */
 
 .carousel-item {
