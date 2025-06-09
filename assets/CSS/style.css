@@ -29,12 +29,12 @@ hr {
     padding-right: 2rem;
 }
 
-#navbar .nav-tabs .nav-link.active {
+#navbar .nav-tabs .nav-link.active, #navbar .navbar-toggler {
     background-color: var(--bold-color);
     color: var(--white-colour);
 }
 
-#navbar .nav-tabs .nav-link, #navbar .navbar-toggler {
+#navbar .nav-tabs .nav-link {
     background-color: var(--dark-color);
     color: var(--white-colour);
 }
@@ -43,8 +43,18 @@ hr {
     padding-bottom: 0;
 }
 
+.offcanvas-body {
+    padding: 0;
+}
+
 .offcanvas-body li {
     border: 1px solid;
+}
+
+.offcanvas-body .navbar-toggler {
+    width: 15%;
+    height: 10%;
+    margin: 0.5rem;
 }
 
 /* footer */
