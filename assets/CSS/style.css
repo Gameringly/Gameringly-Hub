@@ -34,9 +34,13 @@ hr {
     color: var(--white-colour);
 }
 
-#navbar .nav-tabs .nav-link {
+#navbar .nav-tabs .nav-link, #navbar .navbar-toggler {
     background-color: var(--dark-color);
     color: var(--white-colour);
+}
+
+.navbar {
+    padding-bottom: 0;
 }
 
 /* footer */
