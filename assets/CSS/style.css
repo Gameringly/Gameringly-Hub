@@ -57,6 +57,10 @@ hr {
     margin: 0.5rem;
 }
 
+.offcanvas-body .nav-link, .navbar-nav .nav-link.active {
+    color: black;
+}
+
 /* footer */
 
 footer {
