@@ -83,6 +83,10 @@ hr {
     color: limegreen;
 }
 
+#complete {
+    color: var(--bold-color);
+}
+
 /* footer */
 
 footer {
