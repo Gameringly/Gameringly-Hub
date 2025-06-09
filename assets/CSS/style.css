@@ -53,8 +53,9 @@ hr {
 
 .offcanvas-body .navbar-toggler {
     width: 15%;
-    height: 10%;
     margin: 0.5rem;
+    border-radius: 20%;
+    height: 45px;
 }
 
 .offcanvas-body .nav-link, .navbar-nav .nav-link.active {
