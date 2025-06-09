@@ -45,6 +45,8 @@ hr {
 
 .offcanvas-body {
     padding: 0;
+    height: 40%;
+    flex-grow: 0;
 }
 
 .offcanvas-body li {
