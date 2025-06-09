@@ -43,6 +43,10 @@ hr {
     padding-bottom: 0;
 }
 
+.offcanvas-body li {
+    border: 1px solid;
+}
+
 /* footer */
 
 footer {
