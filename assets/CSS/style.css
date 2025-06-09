@@ -70,6 +70,12 @@ hr {
     max-height: 300px;
 }
 
+/* Status */
+
+#ongoing {
+    color: limegreen;
+}
+
 /* footer */
 
 footer {
