@@ -64,6 +64,12 @@ hr {
     color: black;
 }
 
+/* Carousel */
+
+.carousel-item {
+    max-height: 300px;
+}
+
 /* footer */
 
 footer {
