@@ -66,6 +66,11 @@ hr {
     color: black;
 }
 
+header {
+    background-color: var(--highlight-color);
+    color: var(--white-colour);
+}
+
 /* Main */
 
 body {
