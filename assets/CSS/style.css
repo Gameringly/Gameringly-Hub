@@ -82,6 +82,11 @@ body {
     width: 30%;
 }
 
+#request {
+    background-color: var(--neutral-color);
+    color: var(--white-colour);
+}
+
 
 /* Status */
 

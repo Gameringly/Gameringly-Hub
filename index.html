@@ -100,36 +100,41 @@
                 </div>
             </div>
         </section>
-        <hr>
-        <section class="container section mb-5">
-            <div class="row col-8 text-center justify-content-center mx-auto my-4">
-                <h1 class="text-center">Request to join a project</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio voluptates enim quod? Numquam rerum nemo voluptate. Exercitationem, mollitia amet nam id cumque repellendus quia dignissimos consectetur eligendi iure excepturi!</p>
+        
+        <!-- Forum Section -->
+        <section id="request">
+            <hr>
+            <div class="container section mb-5">
+                <div class="row col-8 text-center justify-content-center mx-auto my-4">
+                    <h1 class="text-center">Request to join a project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio voluptates enim quod? Numquam rerum nemo voluptate. Exercitationem, mollitia amet nam id cumque repellendus quia dignissimos consectetur eligendi iure excepturi!</p>
+                </div>
+                <div class="row col-8 col-md-6 col-lg-4 justify-content-center mx-auto my-4">
+                    <form>
+                        <label for="username" class="form-label">Username</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" id="username" class="form-control" aria-label="Username" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="select" class="form-label">Select a project</label>
+                            <select class="form-select" id="select" aria-label="Default select example" required>
+                                <option selected value="">Select</option>
+                                <option value="1">Sonic into Cyberspace</option>
+                                <option value="2">Sonic 2 Time Split</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Give a description of your skills</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="row col-8 col-md-6 col-lg-4 justify-content-center mx-auto my-4">
-                <form>
-                    <label for="username" class="form-label">Username</label>
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" id="username" class="form-control" aria-label="Username" aria-describedby="basic-addon1" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="select" class="form-label">Select a project</label>
-                        <select class="form-select" id="select" aria-label="Default select example" required>
-                            <option selected value="">Select</option>
-                            <option value="1">Sonic into Cyberspace</option>
-                            <option value="2">Sonic 2 Time Split</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Give a description of your skills</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+            <hr>
         </section>
-        <hr>
+        
     </main>
     <!-- Footer -->
     <footer class="mt-auto">
