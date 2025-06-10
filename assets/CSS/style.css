@@ -17,6 +17,8 @@ html * {
 
 hr {
     opacity: 1;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -66,16 +68,15 @@ hr {
 
 /* Main */
 
+body {
+    background-color: var(--white-colour);
+}
+
 #social-links img {
     border-radius: 50%;
     width: 30%;
 }
 
-/* Carousel */
-
-/* .carousel-item {
-    max-height: 300px;
-} */
 
 /* Status */
 
@@ -93,6 +94,8 @@ footer {
     text-wrap-mode: nowrap;
     padding-left: 1rem;
     text-align: center;
+    background-color: var(--dark-color);
+    color: var(--white-colour);
 }
 
 footer h3 {
