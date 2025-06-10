@@ -118,13 +118,12 @@ footer i {
     color: var(--bold-color);
 }
 
-/* Medium Devices (tablets, 768px and up) */
+/* For Medium Devices, tablets */
 @media screen and (min-width: 768px){
     footer {
         text-align: start;
     }
     
-    /* Make all the images appear as the same size in the small screen layout as the larger screens */
     footer img {
         width: 100%;
     }
