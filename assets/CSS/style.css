@@ -31,7 +31,6 @@ hr {
 
 footer {
     text-wrap-mode: nowrap;
-    padding-left: 1rem;
     text-align: center;
     background-color: var(--dark-color);
     color: var(--white-colour);
