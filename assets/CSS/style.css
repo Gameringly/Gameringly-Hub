@@ -48,6 +48,11 @@ footer i {
     padding-right: 0.5rem;
 }
 
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
 
 /* Navbar */
 
