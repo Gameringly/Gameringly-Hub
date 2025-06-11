@@ -84,7 +84,8 @@ a {
 
 .offcanvas-body {
     padding: 0;
-    background-color: var(--neutral-color);
+    background-image: url(../images/nav-image.png);
+    background-position: 25% 0%;
 }
 
 .offcanvas-body li {
