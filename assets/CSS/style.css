@@ -79,12 +79,21 @@ a {
 
 .offcanvas-body {
     padding: 0;
-    height: 40%;
-    flex-grow: 0;
+    background-color: var(--neutral-color);
 }
 
 .offcanvas-body li {
-    border: 1px solid;
+    background-color: var(--dark-color);
+    border: 2px solid transparent;
+}
+
+.offcanvas-body li:hover {
+    border: 2px solid var(--white-colour);
+    transition: 0.15s ease-in-out;
+}
+
+.offcanvas-body li .active {
+    background-color: var(--bold-color);
 }
 
 .offcanvas-body .navbar-toggler {
@@ -95,7 +104,7 @@ a {
 }
 
 .offcanvas-body .nav-link, .navbar-nav .nav-link.active {
-    color: black;
+    color: white;
 }
 
 
