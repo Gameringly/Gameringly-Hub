@@ -68,6 +68,11 @@ a {
     color: var(--white-colour);
 }
 
+#navbar .navbar-toggler:hover {
+    border: 2px solid var(--white-colour);
+    transition: 0.15s ease-in-out;
+}
+
 #navbar .nav-tabs .nav-link {
     background-color: var(--dark-color);
     color: var(--white-colour);
