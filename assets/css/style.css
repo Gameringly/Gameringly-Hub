@@ -131,6 +131,11 @@ footer a {
     color: var(--white-colour);
 }
 
+.carousel-control-next, .carousel-control-prev {
+    color: black;
+    filter: invert(50%);
+}
+
 /* Status */
 
 .ongoing {
