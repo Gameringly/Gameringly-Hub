@@ -129,11 +129,11 @@ a {
 
 /* Status */
 
-#ongoing {
+.ongoing {
     color: limegreen;
 }
 
-#complete {
+.complete {
     color: var(--bold-color);
 }
 
