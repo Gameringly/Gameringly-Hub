@@ -20,7 +20,7 @@ body {
 
 header {
     background-color: var(--highlight-color);
-    color: white;
+    color: black;
 }
 
 hr {
@@ -49,8 +49,12 @@ footer i {
 }
 
 a {
-    color: var(--highlight-color);
+    color: var(--bold-color);
     text-decoration: none;
+}
+
+footer a {
+    color: var(--highlight-color);
 }
 
 
